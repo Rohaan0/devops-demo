@@ -38,6 +38,11 @@ app.post('/api/students', (req, res) => {
    })
 
    try {
+    sdaflgkhklsgfh()
+   } catch {
+    rollbar.log('bruh...')
+   }
+   try {
     safjdslf()
    } catch {
     rollbar.critical('caught a backend error')
